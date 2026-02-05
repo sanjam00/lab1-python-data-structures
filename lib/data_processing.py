@@ -10,8 +10,10 @@ def format_student_data(student):
 	- Major
 	such as: "ID: 10 | Name: Louis Medina | Major: Computer Science"
 	"""
-
-	print(f"Student ID: {student[0]} | Student Name: {student[1]} | Major: {student[2]}")
+	if student:
+		print(f"Student ID: {student[0]} | Student Name: {student[1]} | Major: {student[2]}")
+	else:
+		print("Error: Student data could not be found.")
 
 
 def display_students(student_list):
@@ -23,9 +25,12 @@ def display_students(student_list):
 	# idk how i'm supposed to implement format_student_data, seems like unnessary code.
 	# nvm i figured it out :D
 
-	for student in student_list:
-		format_student_data(student)
-		# print(f"Student ID: {student[0]} | Student Name: {student[1]} | Major: {student[2]}")
+	if student_list:
+		for student in student_list:
+			format_student_data(student)
+			# print(f"Student ID: {student[0]} | Student Name: {student[1]} | Major: {student[2]}")
+	else:
+		print("Error: Student data could not be found.")
 		
 
 # format_student_data(students)
