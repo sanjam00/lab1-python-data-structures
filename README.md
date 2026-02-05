@@ -96,11 +96,11 @@ or make up your own student data.
 ```python
 # List of students stored as tuples (ID, Name, Major)
 students = [
-    (101, "Alice Johnson", "Computer Science"),
-    (102, "Bob Smith", "Mathematics"),
-    (103, "Charlie Davis", "Physics"),
-    (104, "David Wilson", "Computer Science"),
-    (105, "Eve Lewis", "Mathematics"),
+	(101, "Alice Johnson", "Computer Science"),
+	(102, "Bob Smith", "Mathematics"),
+	(103, "Charlie Davis", "Physics"),
+	(104, "David Wilson", "Computer Science"),
+	(105, "Eve Lewis", "Mathematics"),
 ]
 ```
 
@@ -127,11 +127,11 @@ In `set_operations.py`, edit the `unique_majors` function to return a set of uni
 majors using set comprehension. For example, given a list of students like:
 ```python
 [
-    (101, "Miles", "Mathematics"),
-    (102, "Laura", "Mathematics"),
-    (103, "Benji", "Physics"),
-    (104, "Natalia", "Physics"),
-    (105, "Nadia", "Mathematics"),
+	(101, "Miles", "Mathematics"),
+	(102, "Laura", "Mathematics"),
+	(103, "Benji", "Physics"),
+	(104, "Natalia", "Physics"),
+	(105, "Nadia", "Mathematics"),
 ]
 ```
 the `unique_majors` function should return (in no particular order):
