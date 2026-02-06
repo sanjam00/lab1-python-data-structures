@@ -8,9 +8,10 @@ def filter_students_by_major(student_list, major):
 	- Check if a student's major matches the given major (case insensitive).
 	- Return a new list containing only students that match.
 	"""
-	filtered = [student for student in student_list if major.lower() == student.lower()]
+	# filtered = [student for student in student_list if student[2].lower() == major.lower()]
 	if student_list:
 		print(f"\nMajors matching {major}:")
-		display_students(filtered)
+		# return display_students(filtered)
+		return [student for student in student_list if student[2].lower() == major.lower()]
 	else:
 		print(f"\nThere are no results matching {major}.")
