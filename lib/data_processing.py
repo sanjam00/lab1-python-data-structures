@@ -1,6 +1,4 @@
 # This module contains functions to process student data.
-from student_data import students
-
 def format_student_data(student):
 	"""
 	Format student data for display.
@@ -29,6 +27,3 @@ def display_students(student_list):
 	else:
 		print("Error: Student data could not be found.")
 		
-
-# format_student_data(students)
-display_students(students)

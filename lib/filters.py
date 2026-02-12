@@ -1,6 +1,4 @@
 # This module contains functions for filtering student data.
-from data_processing import display_students
-
 def filter_students_by_major(student_list, major):
 	"""
 	Return a filtered list of students by major using a list comprehension.
