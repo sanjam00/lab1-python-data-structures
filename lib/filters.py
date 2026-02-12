@@ -1,5 +1,5 @@
 # This module contains functions for filtering student data.
-from lib.data_processing import display_students
+from data_processing import display_students
 
 def filter_students_by_major(student_list, major):
 	"""
