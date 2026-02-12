@@ -1,5 +1,4 @@
 from lib.data_processing import format_student_data, display_students
-# from lib.student_data import students 
 
 def test_format_student_data():
     student = (101, "Alice Johnson", "Computer Science")

@@ -11,7 +11,7 @@ def format_student_data(student):
 	such as: "ID: 10 | Name: Louis Medina | Major: Computer Science"
 	"""
 	if student:
-		return f"Student ID: {student[0]} | Student Name: {student[1]} | Major: {student[2]}"
+		return f"ID: {student[0]} | Name: {student[1]} | Major: {student[2]}"
 	else:
 		print("Error: Student data could not be accessed.")
 
