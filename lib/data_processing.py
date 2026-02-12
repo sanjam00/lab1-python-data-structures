@@ -1,5 +1,5 @@
 # This module contains functions to process student data.
-from student_data import students
+from lib.student_data import students
 
 def format_student_data(student):
 	"""
